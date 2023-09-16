@@ -1,0 +1,15 @@
+:root{
+    --main-theme-bg: #e5e5e5;
+    --main-footer-bg: #2c2c2c;
+    --main-theme-text:#000000;  
+    --main-text-color:#666666;
+    --btn-bg: #333;
+    --body-fonts:'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--body-fonts);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
