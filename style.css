@@ -1,15 +1,55 @@
-:root{
-    --main-theme-bg: #e5e5e5;
-    --main-footer-bg: #2c2c2c;
-    --main-theme-text:#000000;  
-    --main-text-color:#666666;
-    --btn-bg: #333;
-    --body-fonts:'Montserrat', sans-serif;
-}
-
 body{
-    font-family: var(--body-fonts);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
+header{
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-top: 1rem;
+   display: flex;
+   justify-content: space-between;
+}
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+}
+#logo{
+    font-size: 30px;
+    font-weight: 900;
+    color:#E213AC;
+
+}
+.hero-section{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.fola{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.intro{
+    width: 85%;
+    font-size: 20px ;
+    font-weight:700 ;
+    font-family: 'DM Sans', sans-serif;
+    color: #E213AC;
+}
+.resume a {
+    text-decoration: none;
+    color: #E213AC;
+}
