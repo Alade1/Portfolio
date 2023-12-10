@@ -26,7 +26,7 @@ nav ul li a {
 #logo{
     font-size: 30px;
     font-weight: 900;
-    color:#E213AC;
+    color:#42446E;
 
 }
 .hero-section{
@@ -44,12 +44,39 @@ nav ul li a {
 }
 .intro{
     width: 85%;
-    font-size: 20px ;
+    font-size: 30px ;
     font-weight:700 ;
     font-family: 'DM Sans', sans-serif;
-    color: #E213AC;
+    color: #42446E;
 }
 .resume a {
     text-decoration: none;
-    color: #E213AC;
+    color: #42446E;
+}
+.section-1{
+    margin-top: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.tech-stacks{
+    text-align: center;
+}
+.tech-stacks h2{
+    color:#42446E;
+    
+}
+.tech-stacks p{
+    color:#666666;
+}
+.stacks-images{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 80px;
+
+}
+.code{
+    width: 80px;
+    height: 80px;
 }
