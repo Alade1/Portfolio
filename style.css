@@ -48,6 +48,7 @@ nav ul li a {
     font-weight:700 ;
     font-family: 'DM Sans', sans-serif;
     color: #42446E;
+    text-align: justify;
 }
 .resume a {
     text-decoration: none;
@@ -69,7 +70,7 @@ nav ul li a {
     color:#666666;
 }
 .stacks-images{
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -80,3 +81,59 @@ nav ul li a {
     width: 80px;
     height: 80px;
 }
+
+.card{
+    background-color:#fff;
+    width: 200px;
+    height: 300px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px 3px #888888;
+    padding: 10px;
+   
+}
+.card-img{
+    height: 150px;
+    width: 200px;
+    
+}
+.card-second-section h2{
+    font-size: 20px;
+}
+
+.card-second-section .web{
+    font-size: 10px;
+
+}
+.card-second-section .stack{
+    font-size: 8px;
+}
+.card-second-section a{
+    font-size: 8px;
+    text-decoration-color: black;
+    color:black
+}
+.card-second-section i{
+    font-size: 8px;
+}
+.section-2{
+    padding-left: 2rem;
+    margin-right: 2rem;
+}
+ .project{
+    text-align: center;
+    padding-top: 30px;
+    color:#42446E;
+    
+}
+.built{
+    text-align: center;
+    color: #666666;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
