@@ -11,6 +11,7 @@ header{
 }
 
 nav ul{
+
     display: flex;
     justify-content: space-around;
     gap: 40px;
@@ -135,5 +136,6 @@ nav ul li a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 26px;
 }
+
 
 
