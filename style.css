@@ -291,8 +291,23 @@ footer{
         
     }
 
+}
+@media only screen and (min-width:767px) and (max-width:991px){
+    .stacks-images{
+        margin-left: 30px;
+        margin-right: 10px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
 
-
+    .card-section{
+        display: grid;
+       align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 
 }
 
