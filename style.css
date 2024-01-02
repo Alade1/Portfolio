@@ -11,6 +11,9 @@ header{
   
 
 }
+.menu{
+    display: none;
+}
 
 nav ul{
 
@@ -196,6 +199,97 @@ footer{
 }
 .designer p span {
     color:#42446E;
+}
+
+@media only screen and (max-width: 768px){
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu i{
+        font-size: 30px;
+    }
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+     }
+     .hero-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .intro{
+        width: 100%;
+        font-size: 20px ;
+        font-weight:700 ;
+        font-family: 'DM Sans', sans-serif;
+        color: #42446E;
+    }
+    .resume a {
+        text-align: center;
+        color: #42446E;
+        font-weight: 500;
+    }
+    .section-1{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .stacks-images{
+        margin-left: 30px;
+        margin-right: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .code{
+        height: 50px;
+        width: 50px;
+    }
+    .section-2{
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .project{
+        text-align: center;
+        padding-top: 10px;
+        color:#42446E;
+        
+    }
+    .card-section{
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .footer-nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: #666666 1px solid;
+    }
+    .footer-second-section{
+        display: none;
+        
+        
+    }
+
+
+
+
 }
 
 
